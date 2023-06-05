@@ -45,5 +45,5 @@ struct Raytracer::Shapes::Ray {
 
 
 namespace Raytracer::Shapes {
-        using Shape = std::variant<Sphere, Cube, Prism>;
+        using Shape = std::variant<std::monostate, Sphere, Cube, Prism>;
 }

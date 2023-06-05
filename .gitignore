@@ -5,3 +5,4 @@ build/*
 
 output/raytracer
 !output/.gitkeep
+assets/output.png

@@ -16,17 +16,23 @@ namespace Raytracer::Shapes {
 struct Raytracer::Shapes::Sphere {
         Raytracer::Math::Vec3 center;
         float radius{0};
+        
+        Raytracer::Math::Vec3u8 color;
 };
 
 struct Raytracer::Shapes::Cube {
         Raytracer::Math::Vec3 center;
         float side{0};
+        
+        Raytracer::Math::Vec3u8 color;
 };
 
 
 struct Raytracer::Shapes::Prism {
         Raytracer::Math::Vec3 center;
         Raytracer::Math::Vec3 dimensions;
+        
+        Raytracer::Math::Vec3u8 color;
 };
 
 
